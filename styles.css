@@ -1,0 +1,185 @@
+
+
+h1 {
+	color: blue;
+}
+li {
+	color: white;
+
+}
+
+.boldClass {
+	font-weight: bold;
+
+}
+#bigID {
+	font-size: 24px;
+}
+.greenText {
+	color: green;
+	font-size: 36px;
+}
+
+
+.header {
+	padding: 50px 40px;
+	background: grey;
+}
+.content{
+	padding: 16px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.bottom-left{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+.top-left{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.top-right{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+.bottom-right{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	position: relative;
+	font-family: Arial;
+}
+
+.textblock{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.well{
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.row {
+	display: -ms-flexbox; 
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column {
+	-ms-flex: 25%;
+	flex: 25%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+	.column{
+		-ms-flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column{
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+.bg-1 {
+	background-color: #1abc9c;
+	color: #ffffff;
+}
+
+
+.bg-2 {
+background-color: #474e5d;
+color: #ffffff;
+
+}
+
+.bg-3 {
+background-color: #ffffff;
+color: #555555;
+
+
+}
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-4 {
+background-color: #2f2f2f;
+color: #ffffff;
+
+}

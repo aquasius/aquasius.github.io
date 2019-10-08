@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+		<meta charset="utf-8">
+
+		<meta name="desciption" content="portfolio webpage">
+		
+		<meta name="keywords" content="aaron, portfolio">
+		
+		<meta name="viewport" content="width=device-width, initial scale=1">
+
+		<meta name="author" content="Aaron">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" type="footer" href="styles.css">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+<style> 
+
+	.topnav {
+	background-color: #000000;
+	overflow: hidden;
+}
+.topnav a{
+	float: left;
+	color: #39FF33
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+.topnav a:hover {
+	background-color: silver; 
+}
+.topnav a.active{
+	background-color: green;
+	color:white;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	resize: vertical;
+}
+
+input[type=submit] { 
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit] :hover {
+	background-color: #45a049
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+}
+
+.column, input[type=submit] {
+	width: 100%;
+	margin-top: 0;
+}
+
+</style>
+<head>
+	<title></title>
+</head>
+<body>
+	<img src="">
+<div class="topnav">
+  <a class="active" href="index2.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="contact.html">Contact</a>
+  <a href="projects.html">Projects</a>
+  <a href="Bootstrap.html">Bootstrap</a>
+</div>
+
+<background img src="basic.jpg">
+	<div class="container">
+		<div style="text-align: center;">
+			<font color="black"><p><strong>Have a question? Leave me a message!</strong></p></font>
+	</div>
+	<div class="row">
+		<div class="column">
+			<img src="contactme.png" style="width: 60%">
+	</div>
+	<div class="column">
+		<form action="/action_page.php">
+			<label for="fname"><font color="black"> First Name</font></label>
+			<input type="text" id="fname" name="firstname"placeholder="Your last name..">
+			<label for="lname"> <font color="black"> Last Name </font></label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<label for="country"><font color="black">Country </font></label>
+			<select id="country" name="country">
+				<option value="australia"> Australia</option>
+				<option value="canada"> Canada </option>
+				<option value="usa"> USA </option>
+			</select>
+			<label for="subject"><font color="black"> Subject</label>
+			<textarea id="subject" name="subject" placeholder="write something.." style="height: 170px"> </textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</div>
+</div>
+
+
+
+<h1> <center><strong>Check out My Social Media!</strong> </center> </h1>
+
+
+	<a href="https://www.facebook.com/quasius" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/B00gieQ" class="fa fa-twitter"></a>
+	<a href="https://www.instagram.com/boogieq/" class="fa fa-instagram"></a>
+
+
+</div>
+
+
+
+</body>
+</html>
